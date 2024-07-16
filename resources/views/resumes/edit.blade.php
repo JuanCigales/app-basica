@@ -107,7 +107,7 @@
             </div>
 
             <div class="form-group">
-              <example-component /> 
+              <example-component :skills="{{ $resume->skills ?? '[]' }}" /> 
             </div>
 
             <button class="btn btn-primary" id="submit">

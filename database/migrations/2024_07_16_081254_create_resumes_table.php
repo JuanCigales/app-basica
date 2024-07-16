@@ -20,6 +20,7 @@ return new class extends Migration
             $table->string('email');
             $table->string('website')->nullable();
             $table->string('picture')->nullable();
+            $table->json('skills')->nullable();
             $table->text('about')->nullable();
         });
     }
