@@ -106,6 +106,10 @@
               <textarea name="about" class="w-100">{{ old('about') ?? $resume->about }}</textarea>
             </div>
 
+            <div class="form-group">
+              <example-component /> 
+            </div>
+
             <button class="btn btn-primary" id="submit">
               Submit
             </button>
