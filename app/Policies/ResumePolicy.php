@@ -13,7 +13,7 @@ class ResumePolicy
      */
     public function viewAny(User $user): bool
     {
-        return $user->id === $resume->user->id;
+        //return $user->id === $resume->user->id;
     }
 
     /**
